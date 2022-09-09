@@ -82,13 +82,13 @@ def ADJUST_Length(p):
 # --------------------------------------------------------------------------------------
 def main():
     char_count = int(input("Enter the charactor count of the password : "))
-    pword = input("enter the preferred password : ")
+    pword = input("Enter the preferred password : ")
 
     if  char_count == len(pword):
         pp = check_AaD(pword)
         return pp
     else:
-        print("charactor count not matching")
+        print("charactor count not matching...")
 
 # ---------------------------------------------------------------------------------------
 pwordlist = []
@@ -97,6 +97,6 @@ while n <= N :
     pwordlist.append(x)
     n = n + 1
 else:
-    print("END")
+    print("END...")
     for i in pwordlist:
         print(i)
